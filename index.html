@@ -23,7 +23,7 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
-              <a href="#home" class="nav__link">
+              <a href="#home" class="nav__link active-link">
                 <i class="uil uil-estate nav__icon"></i> Home
               </a>
             </li>
@@ -50,7 +50,10 @@
           </ul>
           <i class="uil uil-times" id="nav-close"></i>
         </div>
+
         <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
           <div class="nav__toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
           </div>
@@ -137,7 +140,11 @@
         <h2 class="section__title">About Me</h2>
         <span class="section__subtitle">My introduction</span>
         <div class="about__container container grid">
-          <img src="assets/img/about.jpg" alt="" class="about_img" />
+          <img
+            src="assets/img/yomero.png"
+            alt="pic of myself, the author"
+            class="about_img"
+          />
           <div class="about__data"></div>
           <p class="about__description">
             Web Developer with Full Stack MERN Skills. Passionate in coding,
@@ -665,6 +672,10 @@
         <p class="footer__copy">&#169; Lino Cruz. All rights Reserved.</p>
       </div>
     </footer>
+    <!-- Scroll to top -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
 
     <!-- script de SWIPER js -->
     <script src="assets/js/swiper-bundle.min.js"></script>
