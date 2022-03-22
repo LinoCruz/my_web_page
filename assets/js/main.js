@@ -161,3 +161,11 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+// typing animation
+var typed = new Typed(".typing", {
+  strings: ["Full-Stack Developer", "Web Designer", "YouTuber", "Data Analyst"],
+  typeSpeed: 120,
+  BackSpeed: 60,
+  loop: true,
+});
