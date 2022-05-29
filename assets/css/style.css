@@ -460,7 +460,7 @@ img {
 }
 
 .skills__react {
-  width: 80%;
+  width: 65%;
 }
 
 .skills__python {
@@ -470,11 +470,21 @@ img {
   width: 0%;
 }
 .skills__mysql {
-  width: 65%;
+  width: 60%;
+}
+.skills__mongodb {
+  width: 60%;
 }
 
-.skills__mongodb {
-  width: 0%;
+.skills__java {
+  width: 60%;
+}
+.skills__figma {
+  width: 75%;
+}
+
+.skills__bootstrap {
+  width: 80%;
 }
 
 .skills__deployment {
@@ -486,7 +496,15 @@ img {
 }
 
 .skills__git {
-  width: 30%;
+  width: 70%;
+}
+
+.skills__postman {
+  width: 65%;
+}
+
+.skills__rstudio {
+  width: 70%;
 }
 
 .skills__django {
@@ -494,7 +512,15 @@ img {
 }
 
 .skills__node {
-  width: 0%;
+  width: 40%;
+}
+
+.skills__express {
+  width: 45%;
+}
+
+.skills__ajax {
+  width: 50%;
 }
 
 .skills__socket {
