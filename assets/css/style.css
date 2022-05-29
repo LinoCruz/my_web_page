@@ -1144,7 +1144,7 @@ body.dark-theme {
 .container2 {
   position: relative;
   z-index: 99;
-  opacity: 0.85;
+  opacity: 1;
 }
 
 #particles-js {
